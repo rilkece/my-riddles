@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">My Riddles</string>
+    <string name="game_name">MY RIDDLES</string>
+    <string name="sign_in_with_google">Sign in With Google</string>
+    <string name="example">Example</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email address</string>
+    <string name="sign_out">Sign out</string>
+    <string name="codigo_cliente">718436686151-htgesft97pu60fonr14i317so44v8b1m.apps.googleusercontent.com</string>
+    <string name="user_name">name</string>
+    <string name="ola">Olá,</string>
+    <string name="user_nome">Seu nome</string>
+    <string name="decifrados">decifrados</string>
+    <string name="qtd_atividades">0</string>
+    <string name="score">score</string>
+    <string name="qtd_score">0</string>
+    <string name="enigmas">Enigmas</string>
+    <string name="criados">Criados</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="hi_textview">"Olá, "</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="seu_email">seu email</string>
+    <string name="sexo">Sexo</string>
+    <string name="seu_sexo">seu sexo</string>
+    <string name="nasc">Nasc.</string>
+    <string name="data_de_nascimento">data de nascimento</string>
+    <string name="sair">SAIR</string>
+    <string name="undefined">indefinido</string>
+    <string name="masc">masculino</string>
+    <string name="fem">feminino</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="update">Atualizar</string>
+    <string name="novo_jogo">Novo Jogo</string>
+    <string name="nome_do_jogo">Nome do Jogo</string>
+    <string name="desc">Descrição</string>
+
+    <string name="fillAll">Preencha todos os campos.</string>
+    <string name="img_upload_fail">Falha ao enviar imagem.</string>
+    <string name="img_upload_success">Imagem Enviada com sucesso.</string>
+    <string name="game_created">Jogo Criado</string>
+    <string name="games_created">Jogos Criados: </string>
+    <string name="adicionados">Adicionados</string>
+    <string name="zero">0</string>
+    <string name="completados">Completados</string>
+    <string name="criado_em">Criado em:</string>
+    <string name="fases">Fases</string>
+    <string name="users_connected">Usuários conectados: </string>
+    <string name="users_completed">Usuários que completaram: </string>
+    <string name="code_riddle">Código</string>
+    <string name="space">: </string>
+    <string name="fase">Fase</string>
+    <string name="fase_1">Fase 1</string>
+    <string name="fase_2">Fase 2</string>
+    <string name="fase_3">Fase 3</string>
+    <string name="fase_4">Fase 4</string>
+    <string name="fase_5">Fase 5</string>
+    <string name="fase_6">Fase 6</string>
+    <string name="fase_7">Fase 7</string>
+    <string name="fase_8">Fase 8</string>
+    <string name="fase_9">Fase 9</string>
+    <string name="fase_10">Fase 10</string>
+    <string name="nova_fase">Nova fase</string>
+    <string name="titulo">Título*</string>
+    <string name="imagem_da_frente">Imagem da frente</string>
+    <string name="imagem_de_tras">Imagem de trás</string>
+    <string name="resposta">Resposta*</string>
+    <string name="hint">Hint*</string>
+    <string name="dica">Dica*</string>
+    <string name="quase_resposta_1">Quase resposta 1</string>
+    <string name="dica_quase_resposta_1">Dica quase resposta 1</string>
+    <string name="quase_resposta_2">Quase resposta 2</string>
+    <string name="dica_quase_resposta_2">Dica quase resposta 2</string>
+    <string name="quase_resposta_3">Quase resposta 3</string>
+    <string name="dica_quase_resposta_3">Dica quase resposta 3</string>
+    <string name="fill">Preencha todos os campos obrigatórios.</string>
+    <string name="fillImages">Envie todas as imagens.</string>
+    <string name="phaseCreated">Fase criada com sucesso..</string>
+    <string name="jogos_adicionados">Jogos adicionados</string>
+    <string name="jogos_completados">Jogos completados</string>
+    <string name="jogos_nao_encontrado">Jogo não encontrado.</string>
+    <string name="jogos_adicionado">Jogo adicionado.</string>
+    <string name="jogos_criado_pelo_user">Você não pode adicionar um jogo criado por você.</string>
+    <string name="_0_0">0/0</string>
+    <string name="autor">Autor</string>
+    <string name="finalizado">Finalizado</string>
+    <string name="no_phases">Esse jogo ainda não possui fases.</string>
+    <string name="responder">responder</string>
+    <string name="congrats">Parabéns</string>
+    <string name="voc_finalizou_o_jogo">Você finalizou o jogo</string>
+    <string name="jogo">Jogo</string>
+
+    <string name="update_app">Este aplicativo está desatualizado, por favor baixe a versão mais recente na Play Store.</string>
+
+    <string name="admob_appid">ca-app-pub-0031218439346463~6132211234</string>
+    <string name="admob_banner">ca-app-pub-0031218439346463/8683364716</string>
+    <string name="admob_nextlevel">ca-app-pub-0031218439346463/2055033721</string>
+
+
+
+</resources>

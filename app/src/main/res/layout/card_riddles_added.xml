@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="2"
+    android:layout_margin="8dp"
+    android:id="@+id/cardRiddlesAdded"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="@color/deep_purple_100">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/myRiddleCoverCardRiddlesAdded"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            app:civ_border_color="#3f51b5"
+            app:civ_border_width="0dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/grey_800"
+            app:civ_shadow_radius="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/txtGameNameCardRiddlesAdded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nome_do_jogo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/deep_orange_900"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:id="@+id/txtGamePhasesCardRiddlesAdded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_0_0"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/deep_orange_500"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txtCodeCardRiddlesAdded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/code_riddle"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/deep_orange_300"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

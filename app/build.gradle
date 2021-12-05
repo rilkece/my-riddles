@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+
+
+    defaultConfig {
+        applicationId "com.cria.sphinxroom"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+
+    //firebase
+    implementation 'com.google.firebase:firebase-auth:19.4.0'
+    implementation 'com.google.firebase:firebase-database:19.5.0'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation 'com.firebaseui:firebase-ui-storage:6.2.0'
+
+    //circle image view from https://github.com/lopspower/CircularImageView
+    implementation 'com.mikhaellopez:circularimageview:4.2.0'
+
+    //alert dialog from https://github.com/searchy2/CustomAlertViewDialogue and https://github.com/dybarsky/spots-dialog
+    implementation 'com.github.searchy2:CustomAlertViewDialogue:2.6.1'
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+
+    //floacting action button from a https://github.com/Clans/FloatingActionButton & https://github.com/Krupen/FabulousFilter
+
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.allattentionhere:fabulousfilter:0.0.5'
+
+    //glide from https://github.com/bumptech/glide/
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    //flip view from https://github.com/wajahatkarim3/EasyFlipView
+    implementation 'com.wajahatkarim3.EasyFlipView:EasyFlipView:3.0.0'
+
+    //ads
+    implementation 'com.google.firebase:firebase-ads:18.0.0'
+
+}

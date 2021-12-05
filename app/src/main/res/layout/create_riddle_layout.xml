@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.allattentionhere.fabulousfilter.AAH_FilterView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/ll_content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/textNewGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/novo_jogo"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/blue_grey_900"/>
+
+    <EditText
+        android:id="@+id/editTextGameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nome_do_jogo"
+        android:textColorHint="@color/blue_grey_900"
+        android:textColor="@color/blue_grey_900"
+        android:layout_marginBottom="24dp"
+        android:maxLength="50"
+        />
+
+    <EditText
+        android:id="@+id/editTextGameDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="8"
+        android:minLines="5"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:textSize="24sp"
+        android:hint="@string/desc"
+        android:textColor="@color/blue_grey_900"
+        android:textColorHint="@color/blue_grey_900"
+        android:maxLength="500"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBarCreateGame"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/orange_900"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+        <Button
+            android:id="@+id/cancel_btn_create_riddle_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:background="@color/red_700"
+            android:layout_marginEnd="64dp"/>
+        <Button
+            android:id="@+id/confirm_btn_create_riddle_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:background="@color/green_500"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+</com.allattentionhere.fabulousfilter.AAH_FilterView>
